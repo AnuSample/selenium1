@@ -98,8 +98,7 @@ else
 		try {
 			obj = driver.findElement(location);
 			System.out.println("Pass : " + objname + "foung on the page ");
-			
-		} catch (NoSuchElementException errMessage) {
+			} catch (NoSuchElementException errMessage) {
 			System.out.println("Fail : " + objname + "could not found on the page ");
 			return;
 		}
